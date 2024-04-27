@@ -1,0 +1,86 @@
+/* styles.css */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#chat-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+label {
+  color: #B4886B;
+  font-weight: bold;
+  display: block;
+}
+
+label:after {
+  content: ": ";
+
+}
+
+h3{
+  width: 400px;
+  margin: 0 auto;
+
+  color: #B4886B;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  
+  
+  #chat-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #message-container {
+    border: 1px solid #ccc;
+    min-height: 300px;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  
+  #message-input {
+    width: calc(100% - 70px);
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  
+
+  #send-button {
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: #B4886B;
+    border-radius: 5px;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
